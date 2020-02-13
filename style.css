@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  background: #9f7aea;
+  padding: 0.4rem 0.9rem;
+  border: 3px solid orange;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: transparent;
+  color: white;
+  font-weight: 900;
+  font-size: 1rem;
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+.img-container:hover {
+  transform: scale(1.05);
+}
+
+.img-container img {
+  -webkit-box-shadow: -1px 10px 10px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 10px 10px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 10px 10px -2px rgba(0, 0, 0, 0.75);
+}
+.allimages .img-container:hover button {
+  display: block;
+}
+
+.allimages .img-container img {
+  border-radius: 5px;
+}
