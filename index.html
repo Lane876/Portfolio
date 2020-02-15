@@ -204,7 +204,7 @@
       </div>
     </section>
 
-    <form class="py-10" id="contact" data-netlify="true">
+    <form class="py-10" id="contact" action="POST" data-netlify="true">
       <div class="container text-center mx-auto">
         <h2 class="text-4xl font-bold tracking-widest">CONTACT</h2>
         <div
@@ -237,7 +237,8 @@
           </div>
           <button
             class="block w-full bg-purple-700 text-white active:bg-purple-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mb-1"
-            type="button"
+            type="submit"
+            value="Send Message"
             style="transition: all .15s ease"
           >
             Send Email
@@ -245,6 +246,7 @@
           </button>
         </div>
       </div>
+      <div data-netlify-recaptcha="true"></div>
     </form>
 
     <footer class="bg-purple-900 text-center py-5">
