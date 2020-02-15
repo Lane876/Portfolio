@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+.container h2 {
+  color: #805AD5;
+}
 
 .btn {
   display: none;
@@ -20,7 +23,7 @@ html {
   border-radius: 5px;
 }
 .btn:hover {
-  background: transparent;
+  background: gray;
   color: white;
   font-weight: 900;
   font-size: 1rem;
