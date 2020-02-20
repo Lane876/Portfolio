@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 .container h2 {
-  color: #805AD5;
+  color: #805ad5;
 }
 
 .btn {
@@ -46,4 +46,8 @@ html {
 
 .allimages .img-container img {
   border-radius: 5px;
+}
+.logomm {
+  width: 80px;
+  height: 40px;
 }
